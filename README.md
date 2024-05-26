@@ -1,9 +1,11 @@
 # PersonalProject
 This TODO list application provides a straightforward way to keep track of tasks and manage them effectively with a clean, responsive, and interactive interface.
 ## Sample Images
-![Budget portfolio](https://github.com/Joseph-Alumbugu/Finance-Project/assets/165429597/ffda79c9-e11c-4f8e-83a3-5ea360e50f5a)
-![stocks portfolio](https://github.com/Joseph-Alumbugu/Finance-Project/assets/165429597/701efd88-9b3c-4042-a811-f7510007dd5c)
-![stocks portforlio](https://github.com/Joseph-Alumbugu/Finance-Project/assets/165429597/9e69d2e8-f72f-44f0-bb0b-18a31c421bc7)
+
+![TL1](https://github.com/OInfinity/PersonalProject/assets/165339925/d2e7a463-6672-486f-974f-bf52e5c447e4)
+![TL2](https://github.com/OInfinity/PersonalProject/assets/165339925/324f7f7d-9ab8-443c-8c76-bd67602615b6)
+![TL3](https://github.com/OInfinity/PersonalProject/assets/165339925/639b0774-fb69-4470-805d-fa9dd22d910e)
+
 
 
 ## Technologies used
