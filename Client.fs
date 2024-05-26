@@ -18,8 +18,8 @@ module Client =
  
     let tasks = 
         ListModel.Create (fun task -> task.Name)
-              [ { Name = "Have breakfast"; Done = Var.Create true }
-                { Name = "Have lunch"; Done = Var.Create false } ]
+              [ { Name = "Add a try live "; Done = Var.Create true }
+                { Name = "Add a ReadMe"; Done = Var.Create false } ]
  
     let newTaskName = Var.Create ""
  
