@@ -23,7 +23,6 @@ You can see a live preview of the website [here][https://todoeventlist.azurewebs
 
 - **Client.fs**: contains the client-side code including all logic and functionality 
 - **wwwroot/index.html**: The main HTML file using websharper templating
-- **wwwroot/Content/styles.css**: Styles for the page.
 
 
 ## Getting Started
@@ -37,25 +36,3 @@ Before you start, ensure you have the following installed:
 - Aleast version6 of [.NET Core SDK](https://dotnet.microsoft.com/download)
 - [Node.js](https://nodejs.org/)
 - npm 
-
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/Joseph-Alumbugu/Finance-Project.git
-```
-2. Navigate to the project directory
-```sh
-cd project 18
-```
-
-3. Build the project using the following command:
-```sh
-dotnet build
-```
-
-4. Run the project:
-```sh
-dotnet run
-```
-5. Open your web browser and navigate to [https://localhost:61840/](https://localhost:61840/) to view the application.
