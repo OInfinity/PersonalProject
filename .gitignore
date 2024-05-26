@@ -1,7 +1,6 @@
 .vs
 bin
 obj
-/wwwroot
 /build
 /node_modules
 *.tmp
