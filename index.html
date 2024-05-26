@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            font-family: 'Arial', sans-serif;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(135deg, #f06, #4a90e2);
+            }
+
+            50% {
+                background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            }
+
+            100% {
+                background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            }
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 500px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        ul {
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            ul > li + li {
+                border-top: 1px dotted #dee2e6;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                animation: listItemAnimation 0.5s ease-in-out;
+            }
+
+        @keyframes listItemAnimation {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        label {
+            width: 100%;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .checked {
+            text-decoration: line-through;
+            color: #6c757d;
+        }
+
+        .btn-danger {
+            margin-left: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-danger:hover {
+                background-color: #dc3545;
+                color: #fff;
+            }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .help-block {
+            color: #6c757d;
+        }
+
+        .checkbox input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .btn-primary, .btn-default {
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+            .btn-default:hover {
+                background-color: #6c757d;
+                color: #fff;
+            }
+    </style><style>
+    body {
+        background: linear-gradient(135deg, #f06, #4a90e2);
+        font-family: 'Arial', sans-serif;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        animation: backgroundAnimation 10s infinite alternate;
+    }
+
+    @keyframes backgroundAnimation {
+        0% {
+            background: linear-gradient(135deg, #f06, #4a90e2);
+        }
+
+        50% {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        }
+
+        100% {
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+        }
+    }
+
+    .container {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 100%;
+        max-width: 500px;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    h1 {
+        color: #343a40;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    ul {
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 20px;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        ul > li + li {
+            border-top: 1px dotted #dee2e6;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            animation: listItemAnimation 0.5s ease-in-out;
+        }
+
+    @keyframes listItemAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    label {
+        width: 100%;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .checked {
+        text-decoration: line-through;
+        color: #6c757d;
+    }
+
+    .btn-danger {
+        margin-left: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-danger:hover {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .help-block {
+        color: #6c757d;
+    }
+
+    .checkbox input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    .btn-primary, .btn-default {
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-default:hover {
+            background-color: #6c757d;
+            color: #fff;
+        }
+</style>
+    <script type="text/javascript" src="Content/Project1.head.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div style="width: 400px">
+            <h1>My TODO list</h1>
+            <div id="tasks"></div>
+            <div style="display: none" ws-children-template="Main">
+                <ul class="list-unstyled" ws-hole="ListContainer">
+                    <li ws-template="ListItem">
+                        <div class="checkbox">
+                            <label ws-attr="ShowDone">
+                                <input type="checkbox" ws-var="Done" />
+                                ${Task}
+                                <button class="btn btn-danger btn-xs pull-right" type="button" ws-onclick="Clear">X</button>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+                <form onsubmit="return false">
+                    <div class="form-group">
+                        <label>New task</label>
+                        <div class="input-group">
+                            <input class="form-control" ws-var="NewTaskName" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button" ws-onclick="Add">Add</button>
+                            </span>
+                        </div>
+                        <p class="help-block">You are going to add: ${NewTaskName}<span></span></p>
+                    </div>
+                    <button class="btn btn-default" type="button" ws-onclick="ClearCompleted">Clear selected tasks</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Content/Project1.min.js"></script>
+</body>
+</html>
