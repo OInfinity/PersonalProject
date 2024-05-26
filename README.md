@@ -1,5 +1,5 @@
 # PersonalProject
-https://todoeventlist.azurewebsites.net
+This TODO list application provides a straightforward way to keep track of tasks and manage them effectively with a clean, responsive, and interactive interface.
 ## Sample Images
 ![Budget portfolio](https://github.com/Joseph-Alumbugu/Finance-Project/assets/165429597/ffda79c9-e11c-4f8e-83a3-5ea360e50f5a)
 ![stocks portfolio](https://github.com/Joseph-Alumbugu/Finance-Project/assets/165429597/701efd88-9b3c-4042-a811-f7510007dd5c)
