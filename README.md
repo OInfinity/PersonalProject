@@ -3,8 +3,9 @@ This TODO list application provides a straightforward way to keep track of tasks
 ## Sample Images
 
 ![TL1](https://github.com/OInfinity/PersonalProject/assets/165339925/d2e7a463-6672-486f-974f-bf52e5c447e4)
-![TL2](https://github.com/OInfinity/PersonalProject/assets/165339925/324f7f7d-9ab8-443c-8c76-bd67602615b6)
 ![TL3](https://github.com/OInfinity/PersonalProject/assets/165339925/639b0774-fb69-4470-805d-fa9dd22d910e)
+![Screenshot (92)](https://github.com/OInfinity/PersonalProject/assets/165339925/8c715116-655d-4bd0-a5bc-ee4f5e0a1535)
+
 
 
 
